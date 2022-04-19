@@ -1,15 +1,15 @@
-import { MockMethod } from "vite-plugin-mock";
+import { MockMethod } from 'vite-plugin-mock'
 export default [
-  {
-    url: "/api/get",
-    method: "get",
-    response: ({ query }) => {
-      return {
-        code: 0,
-        data: {
-          name: "jianjian",
-        },
-      };
-    },
-  },
-]  as MockMethod[]
+    {
+        url: '/api/get',
+        method: 'get',
+        response: ({ query }) => {
+            return {
+                code: 0,
+                data: {
+                    name: 'jianjian'
+                }
+            }
+        }
+    }
+] as MockMethod[]
